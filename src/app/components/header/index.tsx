@@ -17,7 +17,7 @@ export const HeaderComponent = async () => {
             <div className="container mx-auto flex flex-wrap items-center justify-between gap-5 w-full">
                 <Link
                     href="/"
-                    className="text-baseGreen text-base lg:text-2xl font-extrabold"
+                    className="text-gray-700 text-base lg:text-2xl font-extrabold hover:text-gray-900"
                 >
                     Floripa Comercial
                 </Link>
@@ -53,7 +53,7 @@ export const HeaderComponent = async () => {
                                 text-gray-800
                                 text-sm px-2
                                 font-semibold
-                                hover:bg-[#589442]
+                                hover:bg-[#1f2937]
                                 hover:text-white
                                 py-2
                                 rounded
@@ -70,7 +70,7 @@ export const HeaderComponent = async () => {
                             text-gray-800
                             text-sm px-2
                             font-semibold
-                            hover:bg-[#589442]
+                            hover:bg-[#1f2937]
                             hover:text-white
                             py-2
                             rounded
@@ -87,7 +87,7 @@ export const HeaderComponent = async () => {
                             text-gray-800
                             text-sm px-2
                             font-semibold
-                            hover:bg-[#589442]
+                            hover:bg-[#1f2937]
                             hover:text-white
                             py-2
                             rounded
@@ -104,7 +104,7 @@ export const HeaderComponent = async () => {
                             text-gray-800
                             text-sm px-2
                             font-semibold
-                            hover:bg-[#589442]
+                            hover:bg-[#1f2937]
                             hover:text-white
                             py-2
                             rounded
@@ -121,7 +121,7 @@ export const HeaderComponent = async () => {
                             text-gray-800
                             text-sm px-2
                             font-semibold
-                            hover:bg-[#589442]
+                            hover:bg-[#1f2937]
                             hover:text-white
                             py-2
                             rounded

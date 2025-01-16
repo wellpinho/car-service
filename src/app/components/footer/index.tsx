@@ -2,7 +2,7 @@ import { useStatistics } from "@/app/hooks/statistics";
 import Link from "next/link";
 
 export const FooterComponent = () => {
-    const hasTotals = false;
+    const hasTotals = true;
     const { handleTotals } = useStatistics();
 
     return (
@@ -108,7 +108,7 @@ export const FooterComponent = () => {
                     </Link>
                 </>
             ) : (
-                <div className="bg-gray-50 text-white py-12 px-4 font-sans tracking-wide">
+                <div className="bg-gray-50 shadow-lg rounded py-12 px-4 font-sans tracking-wide">
                     <div className="text-center">
                         <h6 className="text-lg text-gray-600">
                             Siga nossas redes sociais
